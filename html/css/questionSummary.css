@@ -1,0 +1,165 @@
+
+
+.questionSummary
+{
+	color: #212121;
+
+	font-weight: normal;
+	width: 720px;
+	height: 70px;
+	background-color:#d6d6d6; 
+
+	position: relative;
+
+	box-shadow: inset 0 1px 0 0 #a3a0a0;
+}
+
+.score-box
+{
+	margin: 0 5px 0 0;
+	display:inline-block;
+	height: 100%;
+	width: 107px;
+
+	font-family: 'Oxygen', sans-serif;
+}
+	.answers, .views
+	{
+		margin: 0px;
+		display: inline-block;
+		width: 46%;
+		height: 100%;
+		position: relative;
+
+		text-align: center;
+	}
+
+		.answers:first-child, .views:first-child
+		{
+			margin-left: 1px;
+		}
+
+		.answers .top, .views .top
+		{
+			position: absolute;
+
+			width: 100%;
+			padding-top: 15px;
+			font-size: 24pt;
+			font-weight: 300;
+
+
+			letter-spacing: -.07em; 
+			/* This is needed when all 3 fields have 3 numbers like in the 2nd question box.
+			Unless you want to adjust 3 number fields in jQuery, not really worth it
+			unless you're picky about the look */
+		}
+
+		.answers .sub, .views .sub
+		{
+			position: absolute;
+			bottom:6px;
+			width: 100%;
+			font-size: 9pt;
+			text-align: center;
+			font-weight: normal;
+		}
+
+.questionSummary:hover, .questionSummary:active
+{
+ background-color: #d0d0d0;
+ box-shadow:inset 0 3px 0 0 #ff6000,
+ 			inset 0  8px 8px -5px #323232, 
+ 			inset 0 -8px 8px -8px #575757;
+}
+
+.question-box
+{	
+	margin: 0;
+	position: absolute;
+	display:inline-block;
+	width: 560px;
+	height: 100%;
+
+	font-family: 'Oswald', sans-serif;
+}
+
+	.question-box .text
+	{
+		padding-top: 5px;
+		padding-left: 10px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 21pt;
+		overflow: hidden;
+	}
+
+
+	.question-box .tags
+	{
+		padding-left: 10px;
+		width: 98.5%;
+		position: absolute;
+		bottom: 3px;
+	}
+
+		.question-box ul
+		{
+			display: inline-block;
+		}
+
+		.question-box .tags li
+		{
+			padding:0 5px;
+			display:inline-block;
+
+			color:#747474;
+			font-family: 'Oxygen', sans-serif;
+			font-size: 9pt;
+		}
+
+		.question-box .tags li:hover
+		{
+			color:#212121;
+			background-color: #E6E6E6;
+		}
+
+	.question-box .userInfo
+	{
+		position: absolute;
+		bottom: 1px;
+		right: 0;
+
+		font-family: 'Oxygen', sans-serif;
+		font-size: 9pt;
+		font-style: italic;
+	}
+
+		.question-box .userInfo p
+		{
+			text-align: right;
+		}
+
+		.question-box .userInfo p .userName
+		{
+			font-weight: 700;
+			margin-right:5px;
+		}
+
+		/*.question-box .userInfo p .userName a
+		{
+			text-decoration: none;
+			color:#656565;
+		}*/
+*
+		/*.question-box .userInfo p .userName a:link
+		{
+			text-decoration: none;
+			color:#656565;
+		}*/
+
+		/*.question-box .userInfo p .userName a:hover
+		{
+			text-decoration: underline;
+			color: #ff6000;
+		}*/

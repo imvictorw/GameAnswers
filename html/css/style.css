@@ -1,0 +1,388 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	        font-smoothing: antialiased;
+
+	/* Debugging */
+	/*box-shadow: 1px  1px 0px #F0F,
+	 1px -1px 0px #F0F,
+	-1px  1px 0px #F0F,
+	-1px -1px 0px #F0F;*/
+}
+
+#content960 {
+	width: 960px;
+	margin: 0px auto;
+}
+
+/*********** ANIMATION RELATED ***********/
+.fadeboxshadow
+{
+	-webkit-transition: box-shadow .1s ease-in-out;
+	   -moz-transition: box-shadow .1s ease-in-out;
+	    -ms-transition: box-shadow .1s ease-in-out;
+	     -o-transition: box-shadow .1s ease-in-out;
+	        transition: box-shadow .1s ease-in-out;
+}
+
+
+.fadetextcolor
+{
+	-webkit-transition: color .1s ease-in-out;
+	   -moz-transition: color .1s ease-in-out;
+	    -ms-transition: color .1s ease-in-out;
+	     -o-transition: color .1s ease-in-out;
+	        transition: color .1s ease-in-out;
+}
+
+
+.fadebg
+{
+	-webkit-transition: background-color .12s ease-in-out;
+	   -moz-transition: background-color .12s ease-in-out;
+	    -ms-transition: background-color .12s ease-in-out;
+	     -o-transition: background-color .12s ease-in-out;
+	        transition: background-color .12s ease-in-out;
+}
+
+/*********** HEADER RELATED ***********/
+
+header {
+	background-color: #303030;
+	float: left;
+	font-family: 'Tahoma';
+	font-size: 24px;
+	height: 64px;
+	line-height: 64px;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+
+	-webkit-user-select: none;     
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+}
+
+header h1 {
+	color: #FFF;
+	display: inline-block;
+	line-height: 100%;
+	vertical-align: bottom;
+}
+
+header #headerColoured {
+	color: #FF6000;
+}
+
+header nav {
+	display: inline-block;
+	line-height: 100%;
+	vertical-align: bottom;
+}
+
+header nav ul {
+	margin-bottom: 4px;
+}
+
+header nav ul li {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	padding: 0 10px;
+}
+
+header nav ul li a {
+	padding: 0 10px;
+}
+
+header nav ul li:hover {
+	box-shadow: inset 0 -3px 0 0 #FF6000;
+}
+
+header nav ul li:hover a {
+	color: #FF6000;
+}
+
+/*********** FOOTER RELATED **********/
+footer {
+	background-color: #303030;
+	font-family: 'Tahoma';
+	height: 64px;
+	width: 100%;
+	z-index: 3;
+	clear: both;
+
+	-webkit-user-select: none;     
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+}
+
+
+footer div {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+}
+
+footer div ul {
+	margin-bottom: 4px;
+}
+
+footer div ul li {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	line-height: 24px;
+	padding: 0 10px;
+	text-align:center;
+}
+
+footer div ul li a {
+	padding: 0px 10px;
+}
+
+/*********** ASIDE RELATED ***********/
+
+aside label {
+	color: #FFF;
+}
+
+/*********** FORM RELATED ***********/
+
+label {
+	color: #212121;
+}
+
+/*********** GENERAL RELATED ***********/
+
+a {
+	text-decoration: none;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #FFF;
+}
+
+a:hover {
+	color: #FF6000;
+}
+
+/*#askQuestion {
+	display:block;
+}*/
+
+aside {
+	float: left;
+	margin-top: 80px;
+	width: 230px;
+	z-index: 1;
+}
+
+aside .container{
+	background-color: #303030;
+	margin-bottom: 3px;
+	margin-top:4px;
+	padding: 3px;
+	width:230px;
+}
+
+aside #recentTags ul li {
+	box-shadow:  1px  1px 0 #555,
+				 1px -1px 0 #555,
+				-1px  1px 0 #555,
+				-1px -1px 0 #555;
+
+	display: block;
+	margin: 0 0 5px 0;
+	padding: 5px 2px;
+}
+
+aside #recentTags ul li a {
+	font-weight: 300;
+}
+
+aside #recentTags ul li:hover {
+	box-shadow:  1px  1px 0 #773000,
+				 1px -1px 0 #773000,
+				-1px  1px 0 #773000,
+				-1px -1px 0 #773000;
+}
+
+b {
+	font-weight: 700;
+}
+
+body {
+	color:#FFF;
+	background-color: #BEBCB4;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+	width: auto;
+}
+
+button {
+	border: 1px solid #000;
+	font-size: 16px;
+	padding: 2px 16px;
+	margin-top: 4px;
+	display: inline-block;
+}
+
+#leftside {
+	float: left;
+	clear: none;
+}
+
+#rightside {
+	float: left;
+	clear: none;
+}
+
+form {
+	display: block;
+}
+
+form div h4 {
+	margin: 4px 0;
+}
+
+form textarea {
+	display: block;
+	height: 240px;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	padding: 3px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 28px;
+	margin-bottom: 12px 0px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+.headingDark {
+	color: #3D3D3D;
+	margin-bottom:10px;
+}
+
+label {
+	font-size: 16px;
+	margin: 20px 3px;
+}
+
+nav a {
+	font-size: 20px;
+}
+
+#content960 section {
+	float: right;
+	margin-top: 80px;
+	width: 720px;
+}
+
+section a {
+	color: #212121;
+}
+
+.loggedIn img {
+	display: inline-block;
+}
+
+.loggedIn div {
+	display: inline-block;
+}
+
+@media (max-width:960px) {
+	
+	#content960 {
+		width: 100%;
+	}
+
+	#content960 section {
+		float: left;
+		clear: both;
+		margin-top: 80px;
+		width: 100%;
+	}
+
+	.questionSummary {
+		width: 100%;
+	}
+
+	.question-box {
+		width: 85%;
+	}
+
+	.score-box {
+		width: 15%;
+	}
+	
+	aside {
+		float: left;
+		width: 100%%;
+		display: none;
+	}
+
+	aside h2{
+		display: none;
+		float: none;
+	}
+
+	aside .container{
+		display: inline-block;
+		float: none;
+	}
+
+	aside #recentTags{
+		display: none;
+	}
+	aside #recentTags ul li{
+		display: inline-block;
+	}
+	aside #profileBox{
+		width: 100%;
+	}
+}
+
+@media (max-width:603px) {
+	.question-box {
+		width: 100%;
+	}
+
+	.score-box {
+		display: none;
+	}
+
+	header nav {
+		display: none;
+	}
+}

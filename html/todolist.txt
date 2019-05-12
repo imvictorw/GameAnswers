@@ -1,0 +1,42 @@
+TODO
+
+CSS
+	+ Fix and clean code
+	+ Somewhat Responsive
+	+ Needed for Question Summary Page
+
+Profile Data
+	+ Profile Picture
+	+ User Info to load near picture (accountSession.js, aside.php)
+
+Question:
+	+ View count
+	+ Rating
+		- Upvoting
+		- Downvoting
+	+ Content of the questions.php when new view, answers and rating
+	+ CSS for each Question Page
+
+Browse
+	+ Has bug on 'What's Hot' when clicked on last
+
+Replies
+	+ Update Answers count on question.php
+
+OLD FILES
+- loadTag.js
+
+
+
+
+
+
+
+
+
+NEWEST STUFFS
+Profile Box:
+	- Question Count
+	- Answer Count
+Score = Views now
+Line Height on Regiser.php

@@ -1,0 +1,76 @@
+#tabs {
+    text-decoration:none;
+    float:left;
+    width:100%;
+}
+.tabbs li {
+    list-style:none;
+    display:inline;
+}
+.tabbs a {
+    padding:5px 10px;
+    display:inline-block;
+    background:#666;
+    color:#fff;
+    text-decoration:none;
+}
+.tabbs a.active {
+    background:#3D3D3D;
+    color:#000;
+}
+.ui-widget-header {
+    background:transparent;
+    border:0px;
+    color:transparent;
+}
+.ui-widget-content {
+    border:0px;
+    margin-bottom:10px;
+    background:transparent;
+    color:transparent;
+    text-decoration:none;
+}
+.tabbs .ui-tabs-anchor {
+    font-size:12px;
+    color:black;
+    text-decoration:none;
+}
+.tabbs li.ui-state-default.ui-state-hidden[role=tab]:not(.ui-tabs-active) {
+    list-style:none;
+    display:inline;
+}
+.ui-tabs .ui-tabs-panel {
+    padding: 0px;
+}
+.ui-tabs {
+    padding:0px;
+}
+.ui-tabs .ui-tabs-nav {
+    padding: 0px;
+}
+.ui-state-active a:visited {
+    color:white;
+}
+.questionSummary {
+    font-size:18px;
+    font-weight:1px;
+}
+.questionSummary .question {
+    position: relative;
+    height: 100%;
+    width: 512px;
+}
+.questionSummary .question .tags {
+    bottom: 0;
+    clear:both;
+    font-size: 10px;
+    position: absolute;
+}
+.questionSummary .question .userInfo {
+    bottom: 0;
+    right: 0;
+    clear:both;
+    font-size: 10px;
+    margin-bottom: 2px;
+    position: absolute;
+}

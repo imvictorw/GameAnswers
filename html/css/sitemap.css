@@ -1,0 +1,20 @@
+#sitemap {
+	float: left;	
+	
+	padding-left: 30px;
+
+}
+
+#sitemap li {
+	margin-bottom: 10px;
+}
+
+#sitemapChild {
+	padding-left: 30px;
+}
+
+#sitemap a {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24px;
+}
+

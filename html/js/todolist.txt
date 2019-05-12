@@ -1,0 +1,21 @@
+TODO
+
+Footer
+	+ Add with new sitemap
+
+Support Page
+	+ Add more information
+
+CSS
+	+ Fix up and clean code
+	+ Somewhat Responsive
+
+Profile Data
+	+ Profile Picture
+	+ Basic User Info near Picture (accountSession.js, aside.php)
+
+Question:
+	+ View count
+	+ Rating
+		- Upvoting
+		- Downvoting

@@ -1,0 +1,116 @@
+#question {
+	float: left;
+	/*width: 720px;*/
+	width:100%;
+	background-color: #303030;
+	padding: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#replies {
+	float: left;
+	/*width: 720px;*/
+	width:100%;
+	margin-top: 5px;
+	background-color: #303030;
+	padding: 20px;
+}
+
+#question #score {
+	float: left;
+	width: 10%;
+}
+
+#question #score p {
+	padding: 0px 5px;
+	line-height: 64px;
+	text-align: center;
+}
+
+#question #info {
+	bottom: 0;
+	padding: 4px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	width: 400px;
+}
+
+#question img {
+	float: left;
+}
+
+#question #body {
+	float: left;
+	width: 70%;
+}
+
+#replies #score {
+	float: left;
+	width: 10%;
+}
+
+
+#replies #body {
+	float: left;
+	width: 90%;
+}
+
+#newreply {
+	float: left;
+	width: 720px;
+	padding: 20px;
+}
+
+#newreply form {
+
+}
+
+#newreply input {
+	margin-left: 5%;
+	width: 50%;
+}
+
+#newreply textarea {
+	margin-left: 0%;
+	width: 100%;
+}
+
+#newreply button {
+	float: right;
+}
+
+.reply {
+	background-color: #3A3A3A;
+	margin-bottom: 5px;
+	padding: 8px 8px;
+}
+.reply #content {
+	margin-left: 15px;
+}
+
+#replies img {
+	display: inline-block;
+}
+
+#replies #content {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+
+#replies #content #body{
+	display: block;
+	width: 100%;
+}
+
+#replies #time {
+	display: inline-block;
+	font-size: 12px;
+}
+
+#replies #username {
+	display: inline-block;
+	font-size: 12px;
+}

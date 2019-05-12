@@ -1,0 +1,40 @@
+form {
+	padding-left: 10px;
+}
+
+.loginForm {
+	float: left;
+	width: 360px;
+}
+
+.registerForm {
+	float: left;
+	width: 720px;
+}
+
+#leftside {
+	width: 200px;
+	float: left;
+}
+
+#rightside {
+	width: 300px;
+	float: left;
+}
+
+input {
+	float: left;
+	clear: both;
+	margin: 10px 0;
+}
+
+label {
+	float: left;
+	clear: both;
+	margin: 10px 0;
+}
+
+button {
+	float: left;
+	clear: both;
+}

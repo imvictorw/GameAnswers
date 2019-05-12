@@ -1,0 +1,31 @@
+.subheader{
+	margin-top:10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #BDBDBD;
+	color: black;
+
+}
+
+#navigationMenu h6{
+	font-size: 20px;
+
+}
+
+.FAQText {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+}
+
+.headings{
+	background:none;
+	background-color:#303030;
+}
+
+.ui-state-active{
+	background:none;
+	background-color:#303030;
+	color:white;
+}
+.ui-state-hover{
+	color:white;
+}

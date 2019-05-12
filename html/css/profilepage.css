@@ -1,0 +1,159 @@
+h3 {
+    padding:0px;
+}
+strong {
+    font-weight:bold
+}
+img {
+    max-width:100px;
+}
+#section960 {
+    color:black;
+}
+#profilePage, #row1, #row2 {
+    margin-top: 0px;
+}
+#username {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #BDBDBD;
+    text-align:left;
+    float:left;
+    /*	right:100px;
+	bottom: 50px;*/
+    width:720px;
+}
+#profilepic {
+    display: block;
+    margin-top: 20px;
+    margin-right:30px;
+    float:left;
+}
+.aboutUser {
+    margin-top: 20px;
+    display:block;
+    float: left;
+    font-size: 15px;
+    max-width: 590px;
+    max-height:200px;
+}
+.bio {
+    margin-bottom:10px;
+}
+#biography {
+    width:160px;
+}
+#recentActivity {
+    float:left;
+    display: block;
+    margin-top: 30px;
+    max-width:360px;
+}
+#answers {
+    float:left;
+    display: block;
+    margin-top: 30px;
+    max-width:360px;
+}
+#questions {
+    float:right;
+    display: block;
+    margin-top: 30px;
+    max-width:350px;
+}
+#tags {
+    float:right;
+    display: block;
+    margin-top: 30px;
+    max-width:350px;
+}
+.paragraphText {
+    padding-top:15px;
+    font-size:18px;
+}
+.profilequestion {
+    background-color: #CCC;
+    float :left;
+    width: 360px;
+    height: 52px;
+    margin: 0px 0px 13px 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+.profilequestion * {
+    float:left;
+    text-align: center;
+}
+/* Common to rating, answers and views */
+ .profilequestion .points {
+    margin-left:5px;
+    width:40px;
+}
+.profilequestion .top {
+    width: 100%;
+    padding: 2px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.profilequestion .sub {
+    clear:both;
+    padding: 2px 0px;
+    width: 100%;
+    font-size: 14px;
+}
+.profilequestion .question {
+    position: relative;
+    float:right;
+    height: 100%;
+    width: 297px;
+    font-size:14px;
+}
+.profilequestion .question .text {
+    padding: 1px 1px;
+    margin-bottom:5px;
+}
+/*.profilequestion .question .tags {
+	bottom: 0;
+	clear:both;
+	font-size: 12px;
+	position: absolute;
+}
+
+.profilequestion.question .tags ul {
+
+}
+
+.profilequestion .question .tags ul li {
+	background-color: #DDD;
+	color: #3D3D3D;
+	margin: 0px 4px 0px 0px;
+	padding: 1px 2px;
+}*/
+ .profilequestion {
+    color: #3D3D3D;
+}
+.profilequestion .question .userInfo {
+    clear:both;
+    float: right;
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-right: 5px;
+    /*	position: absolute;*/
+}
+#tags ul li {
+    background-color: #CCC;
+    color: black;
+    border: 1px black solid;
+    display:inline-block;
+    font-size: 14px;
+    margin:3px 3px;
+    padding: 2px;
+}
+#tags ul li a {
+    color: black;
+}
+#tags ul li a:visited {
+    color: black;
+}
